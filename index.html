@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Department Website</title>
+    <link rel = "stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel = "stylesheet" href ="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+    <!--Top part of the page, logo, links, Intro to Department-->
+    <section class="header">
+         <nav>
+             <a class="logo-container" href="index.html"><div class="logo-div"> <img class="logo" src="./Logo.png"></div></a>
+             <div class = "nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                 <ul>
+                     <li><a href="./index.html">HOME</a></li>
+                     <li><a href="./about.html">ABOUT US</a></li>
+                     <li><a href="./faculty.html">FACULTY</a></li>
+                     <li><a href="./nacoss.html">NACOSS</a></li>
+                 </ul>
+             </div>
+             <i class="fa fa-bars" onclick="showMenu()"></i>
+         </nav>
+
+        <div class = "text-box">
+           <h1> CMIS Department </h1>
+           <p>From coding to research; the best department in the college of science and technology.</p>
+           <a href="https://covenantuniversity.edu.ng" class= "hero-btn">Visit the University main site</a>
+        </div>
+
+    </section>
+
+    <!--HOD's Welcome-->
+    <section class="welcome">
+       <div class = "welcome-container">
+           <div class = "left"></div>
+            <div class= "right">
+                <div class = "content">
+                    <h1>HOD's Welcome</h1>
+                    <p>Let me use this opportunity to welcome you specially to the Department of Computer and Management Information Sciences.
+                         The Department has articulated its specific mission, vision and objectives in line with
+                          the vision and mission of the University.</p>
+                </div>
+            </div>
+       </div>
+    </section>
+
+       
+     <!--Our Programs-->
+    <section class= "programs" >
+            <h1>Our Programmes</h1>
+            <p>The department is divide into two unique undergraduate programmes</p>
+           
+          <div class="row">
+              <div class="programs-col">
+                <h3>Computer Science</h3>
+                <p>The passion for software, programming, data and problem solving.<br> Computer Scientists are produced from our department</p>
+              </div>
+              <div class="programs-col">
+                <h3>Management Information Systems</h3>
+                <p>The passion for information analysis to aid in management decision making.<br> Business and Management work hand in hand with an MIS student.</p>
+              </div>
+          </div>
+
+    </section>
+
+    
+     <!--Seminars-->
+     <section class="seminar">
+        <div class = "seminar-container">
+            <div class = "seminar-right"></div>
+             <div class= "seminar-left">
+                 <div class = "seminar-content">
+                     <h1>Town and Gown Seminars</h1>
+                     <p>An academic department is measured in many ways, from the validity and innovation of its research to its ability to rigorously impart knowledge that is relevant to the workplace. 
+                         The Department of Computer and Management Information Sciences in Covenant University is by every measure one of the finest in the nation.</p>
+                 </div>
+             </div>
+        </div>
+     </section>
+
+
+     <!--Footer-->
+       <footer class="footer">
+          <div class="footer-container">
+              <div class = "footer-row">
+                  <div class = "footer-col">
+                      <h4>Connect With Us</h4>
+                      <ul>
+                          <li><a href = "#">Km. 10 Idiroko Road, Canaan Land, Ota, Ogun State</a></li>
+                          <li><a href = "#">+1 (2)345 6789</a></li>
+                          <li><a href = "#">contact@covenantuniversity.edu.ng</a></li>
+                      </ul>
+                  </div>
+                  <div class = "footer-col">
+                    <h4>Colleges</h4>
+                    <ul>
+                        <li><a href = "#">Engineering</a></li>
+                        <li><a href = "#">Leadership and Development Studies</a></li>
+                        <li><a href = "#">Management and Social Sciences</a></li>
+                        <li><a href = "#">Science and Technology</a></li>
+                        <li><a href = "#">Postgraduate Studies</a></li>
+                    </ul>
+                </div>
+                <div class = "footer-col">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href = "#">Forms and Admission Materials</a></li>
+                        <li><a href = "#">Guidance Documents</a></li>
+                        <li><a href = "#">Hardcopy</a></li>
+                        <li><a href = "#">FAQs</a></li>
+                    </ul>
+                </div>
+              </div>
+          </div>
+       </footer>
+
+
+
+
+
+
+     <script>
+         var navLinks = document.getElementById("navLinks");
+         function showMenu(){
+             navLinks.style.right = "0";
+         }
+
+         function hideMenu(){
+             navLinks.style.right = "-200px";
+         }
+
+     </script>    
+
+</body>
+</html> 
