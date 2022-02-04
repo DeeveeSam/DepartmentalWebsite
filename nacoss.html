@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NACOSS</title>
+    <link rel = "stylesheet" href="nacoss.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel = "stylesheet" href ="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+     <!--Top part of the page, logo, links, Intro to Department-->
+     <section class="header">
+        <nav>
+            <a class="logo-container" href="nacoss.html"><div class="logo-div"> <img class="logo" src="./Logo.png"></div></a>
+            <div class = "nav-links" id="navLinks">
+               <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="./about.html">ABOUT US</a></li>
+                    <li><a href="./faculty.html">FACULTY</a></li>
+                    <li><a href="./nacoss.html">NACOSS</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+       <div class = "text-box">
+          <h1> NACOSS </h1>
+       </div>
+   </section>
+
+<!--WHY NACOSS-->
+<section class="why-nacoss">
+    <div class = "why-nacoss-container">
+        <div class = "why-nacoss-left"></div>
+         <div class= "why-nacoss-right">
+             <div class = "content">
+                 <h1>WHY NACOSS?</h1>
+                 <h3>We got your back!</h3>
+                 <p>NACOSS means National Association of Computer Science Students.
+                    Basically, we are the gap between the lecturers and students.
+                    We organise events, give out resources and help with any other information needed.
+                We pay course dues ever session, which is 3000 naira only. The current president of our NACOSS is Samuel Nwabuike.</p>
+             </div>
+         </div>
+    </div>
+ </section>
+  
+ <!--MEMORIES-->
+ <h1 class= "memories-heading">Memories</h1>
+  <div class = "memories-container">
+    <div class="responsive">
+        <div class="gallery">
+            <img src ="Get-Fit.png" class="gallery-img">
+            <h5>Get-Fit</h5>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+            <img src ="Town and Gown.png" class="gallery-img">
+            <h5>Town and Gown</h5>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+            <img src ="Get-Together.png" class="gallery-img">
+            <h5>Get-Together</h5>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+            <img src ="Induction.png" class="gallery-img">
+            <h5>Induction</h5>
+        </div>
+    </div>
+  </div>
+     
+
+    <!--Footer-->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class = "footer-row">
+                <div class = "footer-col">
+                    <h4>Connect With Us</h4>
+                    <ul>
+                        <li><a href = "#">Km. 10 Idiroko Road, Canaan Land, Ota, Ogun State</a></li>
+                        <li><a href = "#">+1 (2)345 6789</a></li>
+                        <li><a href = "#">contact@covenantuniversity.edu.ng</a></li>
+                    </ul>
+                </div>
+                <div class = "footer-col">
+                  <h4>Colleges</h4>
+                  <ul>
+                      <li><a href = "#">Engineering</a></li>
+                      <li><a href = "#">Leadership and Development Studies</a></li>
+                      <li><a href = "#">Management and Social Sciences</a></li>
+                      <li><a href = "#">Science and Technology</a></li>
+                      <li><a href = "#">Postgraduate Studies</a></li>
+                  </ul>
+              </div>
+              <div class = "footer-col">
+                  <h4>Resources</h4>
+                  <ul>
+                      <li><a href = "#">Forms and Admission Materials</a></li>
+                      <li><a href = "#">Guidance Documents</a></li>
+                      <li><a href = "#">Hardcopy</a></li>
+                      <li><a href = "#">FAQs</a></li>
+                  </ul>
+              </div>
+            </div>
+        </div>
+     </footer>
+ 
+   <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+    </script>    
+
+</body>
+</html>
